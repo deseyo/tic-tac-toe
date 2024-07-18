@@ -1,0 +1,79 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(80, 107, 151);
+}
+
+
+.webpage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  height: 90vh;
+}
+
+
+.text-container {
+  text-align: center;
+}
+
+.header-text {
+  font-size: 65px;
+  font-family: 'Playwrite BE VLG', sans-serif;
+  text-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+.winner-field,
+.no-winner-field {
+  font-size: 34px;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  color: rgb(114, 189, 114);
+}
+
+.no-winner-field {
+  color: rgb(206, 114, 114);
+}
+
+
+.gameboard-container {
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  grid-template-rows: repeat(3, 180px);
+  gap: 5px;
+}
+
+.gameboard-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 85px;
+  font-weight: 300;
+  border: 3.5px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background-color: rgb(146, 171, 192);
+  
+}
+
+
+.btn-start,
+.btn-restart{
+  width: 100px;
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: 20px;
+  border: 3px solid black;
+  border-radius: 8px;
+  color: black;
+  background-color: rgb(199, 219, 233);
+}
+
+.btn-inactive {
+  background-color: rgb(154, 154, 154);
+}
+
+
+
+
+
